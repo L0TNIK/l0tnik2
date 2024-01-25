@@ -1,0 +1,35 @@
+p#pogrubienie_kaminski{
+    font-weight: bold;
+    font-size: 33px;
+    color:rgb(140, 94, 209);
+  }
+  p#pochylona_kaminski{
+    font-style: italic;
+    font-size: 38px;
+    color: rgb(240, 194, 109);
+  }
+  p#index_górny_kaminski{
+    vertical-align: super;
+    font-size: 1,3cm;
+    color:rgb(160, 144, 29);
+  }
+  p#index_dolny_kaminski{
+    vertical-align: sub;
+    font-size: 2,1cm;
+    color:rgb(60, 244, 229);
+  }
+  p#mono_kaminski{
+    
+    font-size: 42px;
+    color:rgb(32, 224, 109);
+  }
+  p#powiekszenie_kaminski{
+    
+    
+    color:rgb(90, 64, 159);
+  }
+  p#pomniejszenie_kaminski{
+   
+   
+    color:rgb(190, 164, 59);
+  }

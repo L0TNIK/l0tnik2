@@ -1,0 +1,82 @@
+p#akapit11{
+    font-family: serif;
+    color: gray;
+    text-decoration: overline;
+    font-style: italic;
+    font-variant: small-caps;
+    text-indent: 2cm;
+    line-height: 1cm;
+    font-weight: 400;
+    font-size: xx-small;
+}
+p#akapit12{
+    font-family: serif;
+    color: gray;
+    text-decoration: overline;
+    font-style: italic;
+    font-variant: small-caps;
+    text-indent: 2cm;
+    line-height: 1cm;
+    font-weight: 600;
+    font-size: medium;
+    word-spacing: 12px;
+}
+p#akapit13{
+    font-family: serif;
+    color: gray;
+    text-decoration: overline;
+    font-style: italic;
+    font-variant: small-caps;
+    text-indent: 2cm;
+    line-height: 1cm;
+    font-weight: 800;
+    font-size: xx-large;
+    letter-spacing: 5ex;
+    
+}
+header{
+    color: red;
+    font-size: 1cm;
+    font-weight: bold;
+    
+}
+p#akapit21{
+    font-family: sans-serif;
+    color: pink;
+    text-decoration:line-through;
+    font-style: oblique;
+    font-variant: small-caps;
+    text-indent: 15mm;
+    line-height: 1cm;
+    font-weight: 300;
+    font-size: 50px;
+}
+p#akapit22{
+    font-family: sans-serif;
+    color: pink;
+    text-decoration:line-through;
+    font-style: oblique;
+    font-variant: small-caps;
+    text-indent: 15mm;
+    line-height: 1cm;
+    font-weight: 300;
+    font-size: 0,05in;
+    letter-spacing: 13ex;
+}
+p#akapit23{
+    font-family: sans-serif;
+    color: pink;
+    text-decoration:line-through;
+    font-style: oblique;
+    font-variant: small-caps;
+    text-indent: 15mm;
+    line-height: 1cm;
+    font-weight: 300;
+    font-size: 5em;
+    word-spacing: 0,3cm;
+}
+div#xd{
+    text-align: center;
+    color: blue;
+    
+}

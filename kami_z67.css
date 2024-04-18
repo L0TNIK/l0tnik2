@@ -1,0 +1,37 @@
+p#pierwszy:first-letter{
+    font-size: 119pt;
+    color: orange;
+    }
+    p#pierwszy{
+        font-size: 20pt;
+        color: gold;
+    }
+    p#drugi:first-letter{
+    font-size: 119pt;
+    color: lightgreen;
+    }
+    p#drugi{
+        font-size: 21pt;
+        color: gold;
+    }
+    h1{
+font-weight: bold;
+font-size: 21pt;
+color: purple;
+    }
+    h1::first-letter{
+        color: silver;
+        font-size: 119pt;
+    }
+    p#trzeci{
+color: red;
+font-weight: bold;
+font-size: 15pt;
+    }
+    p#trzeci:first-letter{
+        font-size: 120pt;
+    }
+    p#czwarty{
+        color: darkblue;
+        font-size: 20pt; 
+    }

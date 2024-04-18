@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zadanie 56</title>
+    <style>
+        div#xd{
+            border: 2px red solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>1.składnia teoretyczna definiowania klasy.<br></h1>
+    <div id="xd">selektor.klasa { cecha: wartość }</div><br>
+    <h1>2.Podaj opis dla Klasa "cecha" oraz "wartość",<br></h1>
+   Klasa to wartość atrybutu class="..."<br>
+   nadanego selektorowi z poziomu języka (X)HTML.<br>
+  "cecha" oraz "wartość" określają atrybuty <br>
+  elementu nadane poprzez style.<br>
+   <br>
+   <h1>3.Jaki znacznik może być selektorem? Trzy przykłady selektorów dla klas ( ze znaczeniem),<br></h1>
+   .p { color: red; }<br>
+   .p { color: red; background-color: yellow }
+   .p { color green;} 
+
+   <h1>4.Podaj uwagi na temat nazwy klas: (wykonaj cały tekst, uzupełnij miejsca kropek,<br>
+   uzupełnienia wykonaj pismem pogrubionym, pogrubienia wykonaj z użyciem CSS)<br></h1>
+   Nazwą może być dowolny pojedyńczy wyraz., nie może on zawierać<br>
+
+   
+   Nazwa nie może zaczynać się od cyfer<br>
+   Gdy chcemy użyć znaków "zakazanych" znaków, należy poprzedzić odwróconym ukośnikim.<br>
+   <h1>5.Jakie jest zastosowanie klas?<br></h1>
+   Deklaracja klasy jest przydatna szczególnie, jeśli na wielu stronach serwisu znajdują się
+elementy mające takie samo formatowanie, a dodatkowo nie można dla nich posłużyć się
+selektorem typu, ponieważ na stronie znajdują się inne znaczniki tego samego rodzaju co
+wybrany element, ale nie chcemy, aby i one otrzymały takie samo formatowanie. 
+   <h1>6.Kiedy ma zastosowanie lista klas?<br></h1>
+   Jeśli chcemy do pojedynczego elementu przypisać kilka różnych klas, należy posłużyć się
+poleceniem:
+   <h1>7.składnia teoretyczna listy klasy → obramowania (może być tabele jednokomórkowa), oraz<br></h1>
+   uwagi.<br></h1>
+   <div id="xd">&lt;selektor class="klasa1 klasa2 klasa3..."&gt;</selektor></div>
+   <h1>8.Czym są podzbiory klas. Składnia teoretyczna listy klasy → obramowania (może być tabele<br></h1>
+   jednokomórkowa).<br></h1>
+   Istnieje możliwość określenia tzw. podzbioru klas, czyli podania, jakie klasy musi mieć
+jednocześnie przypisane element, aby wybrana reguła CSS miała do niego zastosowanie. Na
+przykład po wpisaniu:
+   <h1>9.Co jest sygnałem (przesłanką), że należy zastosować klasy?<br></h1>
+   żeby używać styli dla wielu elementów
+   <h1>10.Kiedy i z jakiego powodu powinny być planowane klasy dla wykonywanej strony?<br></h1>
+   kiedy chcemy zwiększyć czytelność kodu
+   <h1>11.Jaki jest cel stosowania komentarzy podczas definiowania klas?<br></h1>
+   aby wiedziec co robi dane definiowanie
+   <h1>12.Podaj konkretny przykład definiowania klasy oraz jej użycia(wywołanie).<br></h1>
+   .div{
+    border 10px red solid;
+   }
+   <h1>13. Omów klasa donosząca się tylko do jednego selektora wraz z przykładem.<br></h1>
+   p.przyklad_klasa { color: red }
+    <h1>14. Jaki jest cel stosowania klasy uniwersalnej. Jakie jest znaczenie znaku „*” oraz kiedy<br>
+   można nie stosować tego znaku..<br></h1>
+   W przypadku stosowanie klas, często podczas ich definiowania, nie wiemy jeszcze, w<br>
+stosunku do jakich znaczników będziemy chcieli je później użyć. Wtedy przydatny okazuje<br>
+się selektor uniwersalny, który pozwala przypisać własności klasy do wszystkich elementów,<br>
+którym zostanie ona nadana, bez względu na typ znacznika czyli użycie jest możliwe w<br>
+różnych znacznikach.<br>
+Przykład:<br>
+definicja arkusza styli<br>
+*.przyklad_uniwersalna { color: red }<br>
+Każdy element, któremu nadamy klasę przyklad_uniwersalna, będzie miał kolor czerwony.<br>
+W tym przypadku gwiazdkę (*) w regule stylu można pominąć:<br>
+.przyklad_uniwersalna { font-size:12 pt; color: red }<br>
+Zwróć uwagę na fakt występowania kropki po selektorze lub przed nazwą klasy. Jest to<br>
+element obowiązkowy i bez tego dalsza praca nie miałaby większego sensu.<br>
+Jak widać na powyższym przykładzie, klasa jest wywoływana w dokumencie za pomocą<br>
+atrybutu class, który może zostać umieszczony niemal w dowolnym znaczniku kodu HTML.<br>
+Przykład
+definicja arkusza styli
+.moja
+{
+color:red;
+font-size:12pt;
+font-style:italic;
+}
+wywołanie
+Wywołanie klasy tak określonej klasy również odbywa się za pomocą atrybutu class.
+</body>
+</html>

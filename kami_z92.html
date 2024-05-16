@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <style type="text/css"> /* początek def CSS */
+ * { margin: 0px; padding: 0px;} /* zerowanie styli */
+ div {overflow: hidden; padding: 25px; }
+/* overflow: hidden --> ukrywanie tekstu wychodzącego poza granice elementu */
+/* padding: 25px; --> używane głównie do manipulowania przestrzenią pomiędzy granicą elementu a jego zawartością*/
+ #ramka { /* definicja elementu ID o nazwie ramka*/
+ margin-right: auto; /* auto -->jest skrótem od ustawienia górnego i dolnego marginesu do zera, a lewego i prawego marginesu do automatycznego.*/
+ margin-left: auto;
+ min-width: 400px; /* minimalna szer strony-->?? */
+ max-width: 900px; /* maksymalna szer strony-->?? */
+ }
+ #naglowek {
+ background-color: rgb(47, 79, 79);
+/* kolor tła w HEX na #FCF; */
+ font-size:16pt;
+/* wielkość czcionki na 16 na jaka tu jest jednostka-wpisz */
+ color:red;
+/* kolor tekstu na czerwony */
+ font-family: Arial;
+/* czcionka arial */
+ font-style: italic;
+/* pochylona czcionka */
+ text-align: center;
+/* wyśrodkowanie tekstu*/
+ font-weight:bold;
+/* gruba czcionka */
+ }
+ #stopka {
+ background-color: rgb(220, 220, 220);
+ font-size:16pt;
+ color:blue;
+ font-family: Arial;
+ font-style: italic;
+ clear:both;
+/* clear-przyleganie elementów, both-pozwala na przerwanie oblewania elementu tekstem i rozpoczęcie layoutowania pod nim */
+ }
+.kolumny {/*definicja elementu ???? (jest kropka i co to znaczy)*/
+ margin-top: 10px; /* pozwala wprowadzić górny margines dla danego elementu*/
+ margin-right: 2%; /* pozwala wprowadzić prawy margines dla danego elementu*/
+ margin-bottom: 2%; /* pozwala wprowadzić dolny margines dla danego elementu */
+ margin-left: 10px; /* pozwala wprowadzić lewy margines dla danego elementu */
+ background-color: #c0c0c0;
+ }
+ #kol1 {
+ float: left; /* element, do którego została zastosowana zostanie ustawiony przy lewej krawędzi swojego rodzica.*/
+ width:100px;
+ background-color: rgb(70, 80, 90);
+ }
+ #kol2 {
+background-color: rgb(69, 69, 69);
+font-size: 0,7cm;
+color: green;
+ }
+ #kol3 {
+    background-color: rgb(69, 69, 69);
+font-size: 0,7cm;
+color: green;
+ }
+/* ?????????????? */</style>
+ </head>
+<body>
+ <div id="ramka">
+ <div id="naglowek">Nagłówek mojej strony </div>
+ <div class="kolumny" id="kol1"><p>Menu</p> </div>
+ <div class="kolumny" id="kol2"><p>Przy zmianie szerokości okna przeglądarki zmieniać się będzie szerokość kolumn.<br>
+    Najczęściej zmiana szerokości dotyczy tylko wybranych kolumn np. kolumna menu<br>
+    pozostaje niezmieniona, pozostałe kolumny zmieniaja się płynnie w stosunku do<br>
+    szerokości okna.</p><br>
+    <img src="kamiński_100procent_skalowania.jpg" alt="">
+    <img src="kamiński_50_procent_skalowania.jpg">
+</div>
+<div class="kolumny" id="kol3"><p>kamińśki</p> </div>
+ <div id="stopka">Pracę wykonał nieznany woluntariusz</div>
+ </div>
+</body>
+</html>
